@@ -22,7 +22,7 @@ public class Person {
     }
 
     public String toString() {
-        return "Person{" +
+        return "day28_encapculation.person.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +

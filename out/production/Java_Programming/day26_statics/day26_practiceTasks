@@ -33,8 +33,8 @@
 					toString(): displays the radius, diameter, pi, area and perimeter of the circle when the object of circle is passed in the print statement
 
 
-3. Person Task:
-		1. Create a class named Person:
+3. day28_encapculation.personTask.Person Task:
+		1. Create a class named day28_encapculation.personTask.Person:
 
 				Attributes:
 					instance: name, age, gender
