@@ -3,11 +3,11 @@ package day30_inheritance.phone_task;
 public class TestPhoneObjects {
     public static void main(String[] args) {
 
-IPhone iphone = new IPhone("IPhone 12", "Large",1246, "Black");
+IPhone iphone = new IPhone("IPhone 12", "Large","Black", 1200);
 
-Samsung samsung = new Samsung("Galaxy s22", "Medium", 500, "White");
+Samsung samsung = new Samsung("Galaxy s22", "Medium", "White",590);
 
-Nokia nokia = new Nokia("Brick", "Small",50, "Pink");
+Nokia nokia = new Nokia("Brick", "Small","Pink", 50);
 
         System.out.println(iphone);
         System.out.println(samsung);

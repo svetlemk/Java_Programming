@@ -13,6 +13,6 @@ public class Cat extends Animal {
 
     @Override
     public void sleep() {
-        System.out.println("Cat" +getName() +" sleeps 12 hours a day.");
+        System.out.println("Cat " +getName() +" sleeps 12 hours a day.");
     }
 }
