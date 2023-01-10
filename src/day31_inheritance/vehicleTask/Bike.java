@@ -1,4 +1,4 @@
-package day31_inheritance.VehicleTask;
+package day31_inheritance.vehicleTask;
 
 public class Bike  extends Vehicle{
     public Bike(String brand, String model, int year, String color, double price) {

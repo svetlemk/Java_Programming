@@ -1,4 +1,4 @@
-package day31_inheritance.VehicleTask;
+package day31_inheritance.vehicleTask;
 
 public class AirPlane extends Vehicle{
 

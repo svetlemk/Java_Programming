@@ -1,6 +1,5 @@
 package day30_inheritance.phone_task;
 
-import java.rmi.ServerError;
 import java.util.Arrays;
 
 public class Phone {
@@ -51,17 +50,17 @@ public class Phone {
     }
 
     public void setColor(String color) {
-        String[] colors = {"Black", "White", "Silver", "Gold", "Pink"};
+        String[] colors = {"Black", "White", "Silver", "Gold", "Pink","Red","Blue","Gray"};
         if (Arrays.asList(colors).contains(color)) {
             this.color = color;
         } else {
-            System.err.println("Invalid color: " + color + " phone can only be  " + Arrays.asList(colors));
+            System.err.println("Invalid color: "+color+ "\n" + getBrand()+getModel() + " phone can only be  " + Arrays.asList(colors));
             System.exit(1);
         }
 
     }
 
-    public Phone(String brand, String model, String size, double price, String color) {
+    public Phone(String brand, String model, String size, String color,double price) {
         setBrand(brand);
         setModel(model);
         setSize(size);
@@ -81,8 +80,8 @@ public class Phone {
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
-                ", price=" + price +
                 ", color='" + color + '\'' +
+                ", price=" + price +
                 '}';
     }
 }
